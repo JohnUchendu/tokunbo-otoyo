@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   Carousel,
   CarouselContent,
@@ -45,28 +46,37 @@ export default function Hero() {
   return (
     <Carousel className="w-full h-[500px] relative">
       <CarouselContent>
-        {slides.map((slide, index) => (
-          <CarouselItem
-            key={index}
-            className={`relative w-full h-[500px] ${
-              index === currentIndex ? "block" : "hidden"
-            }`}
-          >
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${slide.image})` }}
-            />
-            <div className="absolute inset-0 bg-black/50 flex items-center px-10 text-white">
-              <div className="max-w-lg">
-                <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
-                <p className="text-lg mb-6">{slide.description}</p>
-                <Button className="bg-blue-600 hover:bg-blue-700">
-                  {slide.buttonText}
-                </Button>
-              </div>
-            </div>
-          </CarouselItem>
-        ))}
+        <AnimatePresence mode="wait">
+          {slides.map((slide, index) =>
+            index === currentIndex ? (
+              <CarouselItem key={index} className="relative w-full h-[500px]">
+                <motion.div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${slide.image})` }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.8 }}
+                />
+                <motion.div
+                  className="absolute inset-0 bg-black/50 flex items-center px-10 text-white"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.8 }}
+                >
+                  <div className="max-w-lg">
+                    <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
+                    <p className="text-lg mb-6">{slide.description}</p>
+                    <Button className="bg-blue-600 hover:bg-blue-700">
+                      {slide.buttonText}
+                    </Button>
+                  </div>
+                </motion.div>
+              </CarouselItem>
+            ) : null
+          )}
+        </AnimatePresence>
       </CarouselContent>
     </Carousel>
   );

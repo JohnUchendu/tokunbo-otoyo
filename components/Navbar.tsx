@@ -9,13 +9,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-blue-400 fixed top-15 md:top-5 left-0 right-0 z-10 m-2">
+      <nav className="bg-yellow-500 fixed top-15 md:top-5 left-0 right-0 z-10 m-2">
         <div className="justify-between px-4 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             {/* LOGO */}
             <Link href="/" className="">
               <h2 className="text-2xl lg:text-5xl text-black font-bold cursor-pointer ">
-                LOGO
+                K.K. Ubani & Co
               </h2>
             </Link>
             
@@ -52,14 +52,14 @@ const Navbar = () => {
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
                   <Link href="/services" passHref >
-                    <p onClick={() => setNavbar(!navbar)}>Services</p>
+                    <p onClick={() => setNavbar(!navbar)}>Our Attorneys</p>
                   </Link>
                 </li>
-                <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
+                {/* <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
                   <Link href="/service-locations" >
                      <p onClick={() => setNavbar(!navbar)}>Service Locations</p>
                   </Link>
-                </li>
+                </li> */}
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
                   <Link href="/contact" >
                      <p onClick={() => setNavbar(!navbar)}>Contact</p>

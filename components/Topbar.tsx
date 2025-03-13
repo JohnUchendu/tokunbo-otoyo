@@ -29,16 +29,17 @@ const Topbar = () => {
       </div>
 
       {/* Right Side - Contact Details */}
-      <div className="flex items-center gap-6">
-        <div className="flex items-center gap-2">
-          <Phone size={18} />
-          <span>+1 234 567 890</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <Mail size={18} />
-          <span>info@kkubaniandco.com</span>
-        </div>
-      </div>
+      <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+  <div className="flex items-center gap-2">
+    <Phone size={18} />
+    <span>08099000528</span>
+  </div>
+  <div className="flex items-center gap-2">
+    <Mail size={18} />
+    <span>info@kkubaniandco.com</span>
+  </div>
+</div>
+
     </div>
   );
 };

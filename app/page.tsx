@@ -1,5 +1,7 @@
+import AboutUs from "@/components/AboutUs";
+import ClientLogos from "@/components/clients";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import OurServices from "@/components/Services";
 import Topbar from "@/components/Topbar";
 import Welcome from "@/components/Welcome";
 
@@ -9,9 +11,11 @@ const page = () => {
   return (
     <div>
       <Topbar />
-      <Navbar />
       <Hero />
-      <Welcome/>
+      <Welcome />
+      <AboutUs />
+      <OurServices />
+      <ClientLogos/>
     </div>
   );
 };

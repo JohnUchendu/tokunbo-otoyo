@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -13,8 +14,9 @@ const Navbar = () => {
         <div className="justify-between px-4 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             {/* LOGO */}
-            <Link href="/" className="">
-              <h2 className="text-2xl lg:text-5xl text-black font-bold cursor-pointer ">
+            <Link href="/" className="flex ">
+            <Image src="/kkubanilogo-removebg-preview.png" alt="Kk Ubani & Co Logo" width={100} height={100} />
+              <h2 className="text-2xl lg:text-5xl text-gray-700 font-bold cursor-pointer ">
                 K.K. Ubani & Co
               </h2>
             </Link>
@@ -26,9 +28,9 @@ const Navbar = () => {
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
-                  <h3 className="font-thin text-black/60">close</h3>
+                  <X size={30} className="text-black/60" />
                 ) : (
-                  <h3 className="font-thin text-black/60">menu</h3>
+                  <Menu size={30} className="text-black/60" />
                 )}
               </button>
             </div>

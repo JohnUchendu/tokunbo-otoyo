@@ -16,7 +16,7 @@ const AboutUs = () => {
           />
           <h3 className="text-xl font-semibold">Principal Partner</h3>
         </div>
-
+<br/>
         {/* Card 2: Description and Signature */}
         <div className="w-full md:w-1/3">
           <div className=" grid gap-5 text-lg text-gray-700 mb-6">

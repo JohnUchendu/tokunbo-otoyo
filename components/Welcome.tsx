@@ -13,7 +13,7 @@ export default function Welcome() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <Image src="/logo.png" alt="Kk Ubani & Co Logo" width={100} height={100} />
+        <Image src="/kkubanilogo-removebg-preview.png" alt="Kk Ubani & Co Logo" width={100} height={100} />
       </motion.div>
 
       {/* Header */}

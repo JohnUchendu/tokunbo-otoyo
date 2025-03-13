@@ -15,6 +15,7 @@ const logos = [
 export default function ClientLogos() {
   return (
     <div className="relative overflow-hidden bg-gray-100 py-6">
+        <h2 className="text-4xl font-bold text-center mb-10">About Us</h2>
       <div className="w-full flex justify-center">
         <motion.div
           className="flex space-x-10"

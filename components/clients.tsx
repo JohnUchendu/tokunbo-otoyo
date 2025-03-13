@@ -15,16 +15,14 @@ const logos = [
 export default function ClientLogos() {
   return (
     <div className="relative overflow-hidden bg-gray-100 py-6">
-        <h2 className="text-4xl font-bold text-center mb-10">About Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-10">Our Clients</h2>
       <div className="w-full flex justify-center">
         <motion.div
           className="flex space-x-10"
           initial={{ x: "100%" }}
           animate={{ x: "-100%" }}
-          transition={{
-            ease: "linear",
-            duration: 15, // Adjust speed
-            repeat: Infinity,
+          transition={{  ease: "linear",
+            duration: 15, // Adjust speedrepeat: Infinity,
           }}
         >
           {logos.concat(logos).map((logo, index) => (

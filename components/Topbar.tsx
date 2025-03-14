@@ -32,7 +32,7 @@ const Topbar = () => {
       <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
   <div className="flex items-center gap-2">
     <Phone size={18} />
-    <span>08099000528</span>
+    <span>(234) 809 900 0582</span>
   </div>
   <div className="flex items-center gap-2">
     <Mail size={18} />

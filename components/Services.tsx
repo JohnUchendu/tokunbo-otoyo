@@ -4,28 +4,28 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const services = [
-  { title: 'Corporate', image: '/images/corporate.jpg', description: 'Expert legal guidance for corporate governance and compliance.' },
-  { title: 'Commercial', image: '/images/commercial.jpg', description: 'Legal solutions for commercial transactions and trade agreements.' },
-  { title: 'Energy and Natural Resources', image: '/images/energy.jpg', description: 'Advising on energy regulations and natural resource management.' },
-  { title: 'Telecommunication', image: '/images/telecom.jpg', description: 'Legal counsel for telecom operators and regulatory compliance.' },
-  { title: 'Aviation', image: '/images/aviation.jpg', description: 'Expertise in aviation law, compliance, and regulatory matters.' },
-  { title: 'Taxation', image: '/images/taxation.jpg', description: 'Comprehensive tax advisory and compliance services.' },
-  { title: 'Commercial Litigation', image: '/images/litigation.jpg', description: 'Handling complex commercial disputes effectively.' },
-  { title: 'Alternative Dispute Resolution', image: '/images/adr.jpg', description: 'Expert mediation and arbitration services for dispute resolution.' },
-  { title: 'Project Finance', image: '/images/finance.jpg', description: 'Structuring and financing large-scale projects efficiently.' },
-  { title: 'Shipping and Maritime', image: '/images/shipping.jpg', description: 'Legal services for maritime businesses and shipping operations.' },
-  { title: 'Foreign Investment', image: '/images/investment.jpg', description: 'Guiding foreign investors through legal frameworks and compliance.' },
-  { title: 'Banking and Finance', image: '/images/banking.jpg', description: 'Advisory services for banking regulations and financial transactions.' },
-  { title: 'Real Estate', image: '/images/realestate.jpg', description: 'Legal expertise in property transactions and real estate development.' },
-  { title: 'Labour / Employment', image: '/images/labour.jpg', description: 'Providing legal support for employment laws and workplace policies.' },
-  { title: 'Intellectual Property', image: '/images/ip.jpg', description: 'Protecting trademarks, patents, and copyrights effectively.' },
-  { title: 'Entertainment', image: '/images/entertainment.jpg', description: 'Legal counsel for media, entertainment, and creative industries.' },
+  { title: 'Corporate', image: '/areas/corporate.jpg', description: 'Expert legal guidance for corporate governance and compliance.' },
+  { title: 'Commercial', image: '/areas/commercial.jpg', description: 'Legal solutions for commercial transactions and trade agreements.' },
+  { title: 'Energy and Natural Resources', image: '/areas/energy.jpg', description: 'Advising on energy regulations and natural resource management.' },
+  { title: 'Telecommunication', image: '/areas/telecom.jpg', description: 'Legal counsel for telecom operators and regulatory compliance.' },
+  { title: 'Aviation', image: '/areas/aviation.jpg', description: 'Expertise in aviation law, compliance, and regulatory matters.' },
+  { title: 'Taxation', image: '/areas/taxation.jpg', description: 'Comprehensive tax advisory and compliance services.' },
+  { title: 'Commercial Litigation', image: '/areas/litigation.jpg', description: 'Handling complex commercial disputes effectively.' },
+  { title: 'Alternative Dispute Resolution', image: '/areas/adr.webp', description: 'Expert mediation and arbitration services for dispute resolution.' },
+  { title: 'Project Finance', image: '/areas/projectfinance.jpg', description: 'Structuring and financing large-scale projects efficiently.' },
+  { title: 'Shipping and Maritime', image: '/areas/shipping.jpg', description: 'Legal services for maritime businesses and shipping operations.' },
+  { title: 'Foreign Investment', image: '/areas/investment.jpg', description: 'Guiding foreign investors through legal frameworks and compliance.' },
+  { title: 'Banking and Finance', image: '/areas/banking.jpg', description: 'Advisory services for banking regulations and financial transactions.' },
+  { title: 'Real Estate', image: '/areas/realestate.jpg', description: 'Legal expertise in property transactions and real estate development.' },
+  { title: 'Labour / Employment', image: '/areas/labour.jpg', description: 'Providing legal support for employment laws and workplace policies.' },
+  { title: 'Intellectual Property', image: '/areas/ip.jpg', description: 'Protecting trademarks, patents, and copyrights effectively.' },
+  { title: 'Entertainment', image: '/areas/entertainment.jpg', description: 'Legal counsel for media, entertainment, and creative industries.' },
 ];
 
 export default function OurServices() {
   return (
-    <div className="bg-gray-100 py-16 px-8">
-      <h2 className="text-4xl font-bold text-center mb-10">Our Services</h2>
+    <div className="py-16 px-8" style={{ backgroundImage: 'url(/servicesbg.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <h2 className="text-4xl text-white font-bold text-center mb-10">Our Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {services.map((service, index) => (
           <motion.div 

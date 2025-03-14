@@ -12,14 +12,14 @@ const AboutUs = () => {
             alt="Principal Partner"
             width={300}
             height={300}
-            className="object-cover mx-auto mb-4"
+            className="object-cover mx-auto mb-4 "
           />
           <h3 className="text-xl font-semibold">Principal Partner</h3>
         </div>
 <br/>
         {/* Card 2: Description and Signature */}
         <div className="w-full md:w-1/3">
-          <div className=" grid gap-5 text-lg text-gray-700 mb-6">
+          <div className=" grid gap-5 text-md py-6 text-gray-700 mb-6">
             <p>
               K. K. Ubani & Co. is a full service commercial and dispute
               resolution law firm with the requisite expertise to meet our

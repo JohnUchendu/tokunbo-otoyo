@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import {
   Carousel,
   CarouselContent,
@@ -11,24 +12,27 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    image: "/images/slide1.jpg",
+    image: "/hero/justice.jpg",
     title: "Expert Legal Counsel",
     description: "Providing strategic legal solutions tailored to your needs.",
     buttonText: "Schedule a Consultation",
+    link: "/consultation", // Add your consultation page link here
   },
   {
-    image: "/images/slide2.jpg",
+    image: "/hero/gavel.jpg",
     title: "Advocating for Justice",
     description:
       "Committed to protecting your rights with diligence and integrity.",
     buttonText: "Learn More About Our Services",
+    link: "/services", // Add your services page link here
   },
   {
-    image: "/images/slide3.jpg",
+    image: "/hero/book.jpg",
     title: "Your Trusted Legal Partner",
     description:
       "Guiding you through complex legal matters with confidence and expertise.",
     buttonText: "Contact Us Today",
+    link: "/contact", // Add your contact page link here
   },
 ];
 
@@ -68,9 +72,11 @@ export default function Hero() {
                   <div className="max-w-lg">
                     <h2 className="text-4xl font-bold mb-4">{slide.title}</h2>
                     <p className="text-lg mb-6">{slide.description}</p>
-                    <Button className="bg-yellow-500 hover:bg-yellow-200">
-                      {slide.buttonText}
-                    </Button>
+                    <Link href={slide.link} passHref>
+                      <Button className="bg-orange-500 hover:bg-yellow-200">
+                        {slide.buttonText}
+                      </Button>
+                    </Link>
                   </div>
                 </motion.div>
               </CarouselItem>

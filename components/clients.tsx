@@ -4,12 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const logos = [
-  "/logos/logo1.png",
-  "/logos/logo2.png",
-  "/logos/logo3.png",
-  "/logos/logo4.png",
-  "/logos/logo5.png",
-  "/logos/logo6.png",
+  "/logos/ecobank.png",
+  "/logos/phed.png",
+  "/logos/polaris.png",
+  "/logos/nimasa.png",
+  "/logos/fedmintrans.png",
+  "/logos/itf.png",
+  "/logos/crc.png",
+  "/logos/railway.png",
+  "/logos/4power.png",
+  "/logos/indorama.png",
+  "/logos/rinc.png",
 ];
 
 export default function ClientLogos() {
@@ -22,7 +27,7 @@ export default function ClientLogos() {
           initial={{ x: "100%" }}
           animate={{ x: "-100%" }}
           transition={{  ease: "linear",
-            duration: 15, // Adjust speedrepeat: Infinity,
+            duration: 100, // Adjust speedrepeat: Infinity,
           }}
         >
           {logos.concat(logos).map((logo, index) => (
@@ -30,8 +35,8 @@ export default function ClientLogos() {
               key={index}
               src={logo}
               alt="Client Logo"
-              width={100}
-              height={50}
+              width={400}
+              height={400}
               className="object-contain"
             />
           ))}

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -10,17 +10,24 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-yellow-500 fixed top-15 md:top-5 left-0 right-0 z-10 m-2">
+      <nav className="bg-gray-50 fixed top-15 md:top-5 left-0 right-0 z-10 m-2">
         <div className="justify-between px-4 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8">
           <div className="flex items-center justify-between py-3 md:py-5 md:block ">
             {/* LOGO */}
             <Link href="/" className="flex ">
-            <Image src="/kkubanilogo-removebg-preview.png" alt="Kk Ubani & Co Logo" width={100} height={100} />
-              <h2 className="text-2xl lg:text-5xl text-gray-700 font-bold cursor-pointer ">
-                K.K. Ubani & Co
+              <Image
+                src="/kkubani&cologo.png"
+                alt="Kk Ubani & Co Logo"
+                width={50} // Adjust the width
+                height={50} // Set the height equal to the text height
+                className="h-12 w-auto"
+              />
+              
+              <h2 className="text-2xl lg:text-4xl text-blue-900 font-bold cursor-pointer ">
+                K.K. Ubani & Co.
               </h2>
             </Link>
-            
+
             {/* HARMBURGER BUTTON FOR MOBILE */}
             <div className="md:hidden">
               <button
@@ -53,7 +60,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/services" passHref >
+                  <Link href="/services" passHref>
                     <p onClick={() => setNavbar(!navbar)}>Our Attorneys</p>
                   </Link>
                 </li>
@@ -63,8 +70,8 @@ const Navbar = () => {
                   </Link>
                 </li> */}
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/contact" >
-                     <p onClick={() => setNavbar(!navbar)}>Contact</p>
+                  <Link href="/contact">
+                    <p onClick={() => setNavbar(!navbar)}>Contact</p>
                   </Link>
                 </li>
               </ul>
@@ -77,8 +84,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
 
 // import Link from "next/link";
 // import { useState } from "react";
@@ -186,4 +191,3 @@ export default Navbar;
 // };
 
 // export default Navbar;
-

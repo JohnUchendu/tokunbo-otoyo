@@ -13,7 +13,13 @@ export default function Welcome() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        <Image src="/kkubanilogo-removebg-preview.png" alt="Kk Ubani & Co Logo" width={100} height={100} />
+        <Image
+          src="/kkubani&cologo.png"
+          alt="Kk Ubani & Co Logo"
+          width={100}
+          height={150}
+          className="h-12 w-auto"
+        />
       </motion.div>
 
       {/* Header */}
@@ -23,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to K.K. Ubani & Co
+        Welcome to K.K. Ubani & Co.
       </motion.h1>
 
       {/* Gratias Deo Chambers */}
@@ -61,11 +67,11 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.6 }}
       >
-        <p className="text-lg text-gray-700 font-semibold">
+        <p className="text-2xl text-gray-700 font-semibold">
           Get Your Consultation
         </p>
-        <p className="text-2xl font-bold backdrop-blur-2xl text-yellow-500">
-          +234 901 234 5678
+        <p className="text-2xl font-bold backdrop-blur-2xl bg-orange-600 border rounded-4xl p-3 text-white">
+          (234) 809 9000 582
         </p>
         <p className="text-sm text-gray-500"></p>
       </motion.div>

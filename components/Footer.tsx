@@ -3,17 +3,18 @@ import SubFooter from './SubFooter';
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white py-12">
+    <div className="bg-blue-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
+      <h2 className="text-3xl font-bold mb-8">Let's work together</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1: Contact Details */}
-          <div className="bg-gray-700 p-6 rounded-lg">
+          <div className="bg-blue-700 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Contact Details</h3>
             <p className="text-lg">
-              <strong>Address:</strong> 2c General Diriyai Lane, G.R.A. Port Harcourt, Nigeria
+              <strong>Address:</strong> 2c, General Diriyai Lane, G.R.A. Phase 2, Port Harcourt
             </p>
             <p className="text-lg">
-              <strong>Telephone:</strong> 08099000528, 08099000582
+              <strong>Telephone:</strong> (234) 809 900 0582
             </p>
             <p className="text-lg">
               <strong>Email:</strong> info@kkubaniandco.com
@@ -21,7 +22,7 @@ const Footer = () => {
           </div>
 
           {/* Card 2: Office Hours */}
-          <div className="bg-gray-700 p-6 rounded-lg">
+          <div className="bg-blue-700 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Office Hours</h3>
             <p className="text-lg">
               <strong>Monday to Friday:</strong> 9:00 am to 4:00 pm
@@ -30,7 +31,7 @@ const Footer = () => {
           </div>
 
           {/* Card 3: Follow Us */}
-          <div className="bg-gray-700 p-6 rounded-lg">
+          <div className="bg-blue-700 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a href="https://facebook.com/KKubaniandco" target="_blank" rel="noopener noreferrer">

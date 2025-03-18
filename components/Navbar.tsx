@@ -55,23 +55,23 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/about" passHref>
-                    <p onClick={() => setNavbar(!navbar)}> About the Firm</p>
+                  <Link href="/about-law-firm" passHref>
+                    <p onClick={() => setNavbar(!navbar)}> About Our Firm</p>
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/services" passHref>
+                  <Link href="/our-attorneys" passHref>
                     <p onClick={() => setNavbar(!navbar)}>Our Attorneys</p>
                   </Link>
                 </li>
-                {/* <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/service-locations" >
-                     <p onClick={() => setNavbar(!navbar)}>Service Locations</p>
-                  </Link>
-                </li> */}
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/contact">
-                    <p onClick={() => setNavbar(!navbar)}>Contact</p>
+                  <Link href="/law-firm-services" >
+                     <p onClick={() => setNavbar(!navbar)}>Service Areas</p>
+                  </Link>
+                </li>
+                <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
+                  <Link href="/contact-law-firm">
+                    <p onClick={() => setNavbar(!navbar)}>Contact today</p>
                   </Link>
                 </li>
               </ul>

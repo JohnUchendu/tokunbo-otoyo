@@ -4,7 +4,7 @@ import { Facebook, Linkedin, Mail, Phone } from "lucide-react";
 
 const Topbar = () => {
   return (
-    <div className="bg-gray-900 text-white py-2 px-4 flex justify-between items-center text-sm">
+    <div className="bg-gray-900 text-white py-2 px-4 flex justify-between items-center md:text-sm text-xs">
       {/* Left Side - Social Media Icons */}
       <div className="flex gap-4">
         <a

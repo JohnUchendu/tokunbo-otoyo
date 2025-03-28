@@ -45,11 +45,11 @@ const StephenBio = () => {
           </p>
         </div>
 
-        <div className="text-center mt-8">
-          <Button onClick={() => window.history.back()}>Go Back</Button>
-        </div>
       </div>
       <Testimonials />
+        <div className="text-center mt-8 p-3">
+          <Button onClick={() => window.history.back()}>Go Back</Button>
+        </div>
     </div>
   );
 };

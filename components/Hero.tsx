@@ -15,8 +15,8 @@ const slides = [
     image: "/hero/justice.jpg",
     title: "Expert Legal Counsel",
     description: "Providing strategic legal solutions tailored to your needs.",
-    buttonText: "Schedule a Consultation",
-    link: "/consultation", // Add your consultation page link here
+    buttonText: "Call K.K.Ubani&Co. Now",
+    link: "/contact-law-firm", // Add your consultation page link here
   },
   {
     image: "/hero/gavel.jpg",
@@ -24,15 +24,15 @@ const slides = [
     description:
       "Committed to protecting your rights with diligence and integrity.",
     buttonText: "Learn More About Our Services",
-    link: "/services", // Add your services page link here
+    link: "/law-firm-services", // Add your services page link here
   },
   {
     image: "/hero/book.jpg",
     title: "Your Trusted Legal Partner",
     description:
       "Guiding you through complex legal matters with confidence and expertise.",
-    buttonText: "Contact Us Today",
-    link: "/contact", // Add your contact page link here
+    buttonText: "Call Now",
+    link: "/contact-law-firm", // Add your contact page link here
   },
 ];
 

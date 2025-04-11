@@ -30,16 +30,21 @@ const Topbar = () => {
 
       {/* Right Side - Contact Details */}
       <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-  <div className="flex items-center gap-2">
-    <Phone size={18} />
-    <span>(234) 809 900 0582</span>
-  </div>
-  <div className="flex items-center gap-2">
-    <Mail size={18} />
-    <span>info@kkubaniandco.com</span>
-  </div>
-</div>
-
+        <div className="flex items-center gap-2">
+          <Phone size={18} />
+          <span>
+            <span className="border rounded-2xl px-1 bg-orange-500 hover:bg-yellow-200 capitalize font-bold text-gray-900">
+              {" "}
+              call now
+            </span>{" "}
+            (234) 809 900 0582
+          </span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Mail size={18} />
+          <span>info@kkubaniandco.com</span>
+        </div>
+      </div>
     </div>
   );
 };

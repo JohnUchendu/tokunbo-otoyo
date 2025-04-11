@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import Testimonials from "@/components/Testimonial";
+import Hero from "@/components/Hero";
 
 const attorneys = [
   {
@@ -97,6 +98,7 @@ const OurAttorneys = () => {
         </div>
       </div>
       <Testimonials />
+      <Hero/>
     </div>
   );
 };

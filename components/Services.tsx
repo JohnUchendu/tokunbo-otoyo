@@ -107,13 +107,13 @@ const services = [
     description: "Protecting trademarks, patents, and copyrights effectively.",
     bioUrl: "law-firm-services/intellectual-property",
   },
-  {
-    title: "Entertainment",
-    image: "/areas/entertainment.jpg",
-    description:
-      "Legal counsel for media, entertainment, and creative industries.",
-    bioUrl: "law-firm-services/entertainment",
-  },
+  // {
+  //   title: "Entertainment",
+  //   image: "/areas/entertainment.jpg",
+  //   description:
+  //     "Legal counsel for media, entertainment, and creative industries.",
+  //   bioUrl: "law-firm-services/entertainment",
+  // },
 ];
 
 export default function OurServices() {

@@ -20,7 +20,7 @@ const DeborahBio = () => {
         <h2 className="text-4xl font-bold text-center mb-4">
           Deborah N. Ikechukwu
         </h2>
-        <p className="text-gray-500 text-center text-lg mb-6">Associate</p>
+        <p className="text-gray-500 text-center text-lg mb-6">Practice manager/ Senior Associate</p>
 
         <div className="bg-gray-100 p-6 rounded-lg shadow-md">
           <p className="text-lg  text-gray-700 leading-relaxed">

@@ -9,61 +9,61 @@ import Hero from "@/components/Hero";
 
 const attorneys = [
   {
-    name: "Kenneth K. Ubani",
+    name: "Attah Ochinke",
     office: "Principal Partner",
-    image: "/our-attorneys/kennethkelechiubani.PNG",
-    bioUrl: "/our-attorneys/kenneth-kelechi-ubani",
+    image: "/our-attorneys/attahochinke.jpeg",
+    bioUrl: "/our-attorneys/attah-ochinke",
     intro:
-      "Kenneth K. Ubani is a seasoned corporate lawyer with 15+ years of experience in litigation, business law, and regulatory compliance.",
+      "Attah Ochinke is a seasoned corporate lawyer with 5+ years of experience in litigation, business law, and regulatory compliance.",
   },
-  {
-    name: "Deborah N. Ikechukwu",
-    office: "Associate",
-    image: "/our-attorneys/deborah.PNG",
-    bioUrl: "/our-attorneys/deborah-ikechukwu",
-    intro:
-      "One of Deborah’s greatest strength is her ability to manage client relationship with ease.",
-  },
-  {
-    name: "Stephen I. Nwoko",
-    office: "Associate",
-    image: "/our-attorneys/stephen.PNG",
-    bioUrl: "/our-attorneys/stephen-nwoko",
-    intro:
-      "Stephen is a graduate of University of Calabar a member of the Nigerian Bar Association and the Young Lawyers Forum Port Harcourt.",
-  },
-  {
-    name: "Ada A. Nwigwe",
-    office: "Associate",
-    image: "/our-attorneys/ada.PNG",
-    bioUrl: "/our-attorneys/ada-nwigwe",
-    intro:
-      "Ada's passion for commercial and energy law is driven by her desire to help companies navigate the complex legal landscape surrounding these industries",
-  },
-  {
-    name: "Victor Ubochi",
-    office: "Associate",
-    image: "/our-attorneys/victor.PNG",
-    bioUrl: "/our-attorneys/victor-ubochi",
-    intro:
-      "Throughout his career, he has been extensively involved in settling high-ranking and sensitive legal claims for multinational corporations"
-    },
-  {
-    name: "Emeka M. Peters",
-    office: "Associate",
-    image: "/our-attorneys/emeka.PNG",
-    bioUrl: "/our-attorneys/emeka-peters",
-    intro:
-      "Emeka is a Member of the Firm’s Property Law and Real estate Practice.",
-  },
-  {
-    name: "James E.Uro",
-    office: "Associate",
-    image: "/our-attorneys/james.PNG",
-    bioUrl: "/our-attorneys/james-uro",
-    intro:
-      "James E. Uro is known for his dedication to his clients' interests, meticulous attention to detail, and ability to unravel complex legal challenges"
-  },
+  // {
+  //   name: "Deborah N. Ikechukwu",
+  //   office: "Associate",
+  //   image: "/our-attorneys/deborah.PNG",
+  //   bioUrl: "/our-attorneys/deborah-ikechukwu",
+  //   intro:
+  //     "One of Deborah’s greatest strength is her ability to manage client relationship with ease.",
+  // },
+  // {
+  //   name: "Stephen I. Nwoko",
+  //   office: "Associate",
+  //   image: "/our-attorneys/stephen.PNG",
+  //   bioUrl: "/our-attorneys/stephen-nwoko",
+  //   intro:
+  //     "Stephen is a graduate of University of Calabar a member of the Nigerian Bar Association and the Young Lawyers Forum Port Harcourt.",
+  // },
+  // {
+  //   name: "Ada A. Nwigwe",
+  //   office: "Associate",
+  //   image: "/our-attorneys/ada.PNG",
+  //   bioUrl: "/our-attorneys/ada-nwigwe",
+  //   intro:
+  //     "Ada's passion for commercial and energy law is driven by her desire to help companies navigate the complex legal landscape surrounding these industries",
+  // },
+  // {
+  //   name: "Victor Ubochi",
+  //   office: "Associate",
+  //   image: "/our-attorneys/victor.PNG",
+  //   bioUrl: "/our-attorneys/victor-ubochi",
+  //   intro:
+  //     "Throughout his career, he has been extensively involved in settling high-ranking and sensitive legal claims for multinational corporations"
+  //   },
+  // {
+  //   name: "Emeka M. Peters",
+  //   office: "Associate",
+  //   image: "/our-attorneys/emeka.PNG",
+  //   bioUrl: "/our-attorneys/emeka-peters",
+  //   intro:
+  //     "Emeka is a Member of the Firm’s Property Law and Real estate Practice.",
+  // },
+  // {
+  //   name: "James E.Uro",
+  //   office: "Associate",
+  //   image: "/our-attorneys/james.PNG",
+  //   bioUrl: "/our-attorneys/james-uro",
+  //   intro:
+  //     "James E. Uro is known for his dedication to his clients' interests, meticulous attention to detail, and ability to unravel complex legal challenges"
+  // },
 ];
 
 const OurAttorneys = () => {

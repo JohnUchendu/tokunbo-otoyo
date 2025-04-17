@@ -8,7 +8,7 @@ const AboutUs = () => {
         {/* Card 1: Principal Partner's Picture */}
         <div className="w-full md:w-1/3">
           <Image
-            src="/kennethkelechiubani.PNG" // replace with actual path to the image
+            src="/our-attorneys/attahochinke.jpeg" // replace with actual path to the image
             alt="Principal Partner"
             width={300}
             height={300}
@@ -16,12 +16,12 @@ const AboutUs = () => {
           />
           <h3 className="text-xl font-semibold">Principal Partner</h3>
         </div>
-<br/>
+        <br />
         {/* Card 2: Description and Signature */}
         <div className="w-full md:w-1/3">
           <div className=" grid gap-5 text-md py-6 text-gray-700 mb-6">
             <p>
-              K. K. Ubani & Co. is a full service commercial and dispute
+              Attah Ochinke and Co. is a full service commercial and dispute
               resolution law firm with the requisite expertise to meet our
               individual client’s legal needs. In addition, our deep knowledge
               of Nigeria’s unique business environment enhances clients’
@@ -38,14 +38,14 @@ const AboutUs = () => {
               to be forthright and diligent in meeting your needs.
             </p>
             <p>
-              At K. K. Ubani & Co., we pride ourselves on our goal to always
+              At Attah Ochinke and Co., we pride ourselves on our goal to always
               undertake legal services for our wide range of clientele at its
               optimum and in the process keeping to the highest ethical
               standards. We not only meet clients’ expectations, we exceed them.
             </p>
           </div>
           <div className="text-right">
-            <p className="italic">Kenneth K. Ubani</p>
+            <p className="italic">Attah Ochinke</p>
             <p className="italic">Principal Partner</p>
           </div>
         </div>

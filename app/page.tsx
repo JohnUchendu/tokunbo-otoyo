@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import OurServices from "@/components/Services";
 
 import Welcome from "@/components/Welcome";
-import Solution from "@/components/Solution";
+// import Solution from "@/components/Solution";
 
 import React from "react";
 import Testimonials from "../components/Testimonial";
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    images: '/og-image.png',
+    images: '/our-attorneys/attahochinke.jpeg',
   },
-  title: "K.K. Ubani & Co.",
-  description: "Number 1 law firm with K.K. Ubani & Co.",
+  title: "Attah Ochinke and Co.",
+  description: "Number 1 law firm with Attah Ochinke and Co.",
   generator: '',
-  applicationName: 'K.K.Ubani&Co.',
+  applicationName: 'Attah Ochinke and Co.',
   referrer: 'origin-when-cross-origin',
-  keywords: ["K.K. Ubani & Co.", "Gratias Deo Chambers"],
+  keywords: ["Attah Ochinke and Co.", "Gratias Deo Chambers"],
   authors: [{ name: "John"}   ],
   creator: "John Uchendu",
   publisher: "John Uchendu",

@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram } from 'lucide-react'; // Importing Lucide icons
+import { Facebook, Linkedin, Instagram } from 'lucide-react'; // Importing Lucide icons
 import SubFooter from './SubFooter';
 
 const Footer = () => {
@@ -11,14 +11,14 @@ const Footer = () => {
           <div className="bg-blue-700 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Contact Details</h3>
             <p className="text-lg">
-              <strong>Address:</strong> 2c, General Diriyai Lane, G.R.A. Phase 2, Port Harcourt
+              <strong>Address:</strong> 2 Offiong Ekpo Close, off Ndidem Usang Iso Rd, Calabar, Cross River, Nigeria
             </p>
             <p className="text-lg">
-              <strong>Telephone:</strong> (234) 809 900 0582
+              <strong>Telephone:</strong> +234 803 667 4036
             </p>
-            <p className="text-lg">
+            {/* <p className="text-lg">
               <strong>Email:</strong> info@kkubaniandco.com
-            </p>
+            </p> */}
           </div>
 
           {/* Card 2: Office Hours */}
@@ -34,15 +34,15 @@ const Footer = () => {
           <div className="bg-blue-700 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/KKubaniandco" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/attahochinke1/" target="_blank" rel="noopener noreferrer">
                 <Facebook className="text-3xl hover:text-blue-600" />
               </a>
               <a href="https://twitter.com/KKubaniandco" target="_blank" rel="noopener noreferrer">
-                <Twitter className="text-3xl hover:text-blue-400" />
+                <Linkedin className="text-3xl hover:text-blue-400" />
               </a>
-              <a href="https://instagram.com/KKubaniandco" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/attahochinke/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="text-3xl hover:text-pink-500" />
-              </a><span>kkubaniandco</span>
+              </a><span>attahochinke</span>
               
             </div>
           </div>

@@ -37,12 +37,12 @@ const Topbar = () => {
               {" "}
               call now
             </span>{" "}
-            (234) 809 900 0582
+            +234 803 667 4036
           </span>
         </div>
         <div className="flex items-center gap-2">
           <Mail size={18} />
-          <span>info@kkubaniandco.com</span>
+          {/* <span>info@kkubaniandco.com</span> */}
         </div>
       </div>
     </div>

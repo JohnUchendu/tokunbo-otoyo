@@ -1,8 +1,7 @@
-'use client'
-
+"use client";
 
 import Hero from "@/components/Hero";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 export default function ServiceAreaLayout({
   children,
@@ -12,11 +11,10 @@ export default function ServiceAreaLayout({
   return (
     <body>
       {children}
-    
       <Hero />
-      <div className="text-center mt-8 p-3">
+      {/* <div className="text-center mt-8 p-3">
         <Button onClick={() => window.history.back()}>Go Back</Button>
-      </div>
+      </div> */}
     </body>
   );
 }

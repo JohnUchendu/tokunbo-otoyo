@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Topbar from "@/components/Topbar";
+import CallWidget from "@/components/CallWidget";
 
 
 
@@ -24,8 +25,8 @@ const garamond = EB_Garamond({
 // });
 
 export const metadata: Metadata = {
-  title: "K.K. Ubani & Co.",
-  description: "The Number 1 law firm ",
+  title: "Attah Ochinke and Co.",
+  description: "The Number 1 law firm in Cross River ",
 };
 
 export default function RootLayout({
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body
         className={garamond.variable}
       >
+        <CallWidget/>
         <Topbar/>
         <Navbar/>
         {children}

@@ -16,15 +16,15 @@ const Navbar = () => {
             {/* LOGO */}
             <Link href="/" className="flex ">
               <Image
-                src="/kkubani&cologo.png"
-                alt="Kk Ubani & Co Logo"
+                src="/our-attorneys/attahochinke.jpeg"
+                alt=" Attah Ochinke and Co."
                 width={50} // Adjust the width
                 height={50} // Set the height equal to the text height
                 className="h-12 w-auto"
               />
               
               <h2 className="text-2xl lg:text-4xl text-blue-900 font-bold cursor-pointer ">
-                K.K. Ubani & Co.
+              Attah Ochinke and Co.
               </h2>
             </Link>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/about-law-firm" passHref>
+                  <Link href="/about" passHref>
                     <p onClick={() => setNavbar(!navbar)}> About Our Firm</p>
                   </Link>
                 </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/contact-law-firm">
+                  <Link href="/contact">
                     <p onClick={() => setNavbar(!navbar)}>Contact today</p>
                   </Link>
                 </li>

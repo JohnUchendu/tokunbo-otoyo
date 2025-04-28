@@ -22,9 +22,9 @@ const Navbar = () => {
                 height={50} // Set the height equal to the text height
                 className="h-12 w-auto"
               />
-              
+
               <h2 className="text-2xl lg:text-4xl text-blue-900 font-bold cursor-pointer ">
-              Attah Ochinke and Co.
+                Tokunbo Otoyo & Co.
               </h2>
             </Link>
 
@@ -65,8 +65,8 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="/law-firm-services" >
-                     <p onClick={() => setNavbar(!navbar)}>Service Areas</p>
+                  <Link href="/law-firm-services">
+                    <p onClick={() => setNavbar(!navbar)}>Service Areas</p>
                   </Link>
                 </li>
                 <li className="pb-6 text-lg text-black py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:bg-purple-300 border-purple-900 md:hover:text-purple-600 md:hover:bg-transparent">

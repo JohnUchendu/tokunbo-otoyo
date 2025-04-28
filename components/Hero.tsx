@@ -15,7 +15,7 @@ const slides = [
     image: "/hero/justice.jpg",
     title: "Expert Legal Counsel",
     description: "Providing strategic legal solutions tailored to your needs.",
-    buttonText: "Call  Attah Ochinke and Co.",
+    buttonText: "Call today",
     link: "/contact-law-firm", // Add your consultation page link here
   },
   {
@@ -23,7 +23,7 @@ const slides = [
     title: "Advocating for Justice",
     description:
       "Committed to protecting your rights with diligence and integrity.",
-    buttonText: "Learn More About Our Services",
+    buttonText: "Learn More",
     link: "/law-firm-services", // Add your services page link here
   },
   {

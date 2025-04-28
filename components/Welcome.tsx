@@ -14,8 +14,8 @@ export default function Welcome() {
         transition={{ duration: 0.5 }}
       >
         <Image
-          src="/our-attorneys/attahochinke.jpeg"
-          alt="Kk Ubani & Co Logo"
+          src="/our-attorneys/tokunbootoyo.jpeg"
+          alt="Tokunbo Otoyo & Co. Logo"
           width={100}
           height={150}
           className="h-12 w-auto"

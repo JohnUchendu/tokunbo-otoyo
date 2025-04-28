@@ -25,8 +25,8 @@ const garamond = EB_Garamond({
 // });
 
 export const metadata: Metadata = {
-  title: "Attah Ochinke and Co.",
-  description: "The Number 1 law firm in Cross River ",
+  title: "Tokunbo Otoyo & Co.",
+  description: "The Number 1 law firm in Akwa Ibom ",
 };
 
 export default function RootLayout({

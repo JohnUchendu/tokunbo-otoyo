@@ -9,12 +9,12 @@ import Hero from "@/components/Hero";
 
 const attorneys = [
   {
-    name: "Attah Ochinke",
+    name: "Tokunbo Otoyo",
     office: "Principal Partner",
-    image: "/our-attorneys/attahochinke.jpeg",
-    bioUrl: "/our-attorneys/attah-ochinke",
+    image: "/our-attorneys/tokunbootoyo.jpeg",
+    bioUrl: "/our-attorneys/tokunbo-otoyo",
     intro:
-      "Attah Ochinke is a seasoned corporate lawyer with 5+ years of experience in litigation, business law, and regulatory compliance.",
+      "Tokunbo Otoyo is a seasoned corporate lawyer with 5+ years of experience in litigation, business law, and regulatory compliance.",
   },
   // {
   //   name: "Deborah N. Ikechukwu",

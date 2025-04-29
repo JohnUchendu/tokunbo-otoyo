@@ -16,8 +16,8 @@ const Navbar = () => {
             {/* LOGO */}
             <Link href="/" className="flex ">
               <Image
-                src="/our-attorneys/attahochinke.jpeg"
-                alt=" Attah Ochinke and Co."
+                src="/our-attorneys/tokunbootoyo.jpeg"
+                alt=" Tokunbo Otoyo and Co."
                 width={50} // Adjust the width
                 height={50} // Set the height equal to the text height
                 className="h-12 w-auto"

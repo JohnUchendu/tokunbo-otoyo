@@ -29,7 +29,7 @@ export default function Welcome() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to Attah Ochinke and Co.
+        Welcome to Tokunbo Otoyo and Co.
       </motion.h1>
 
       {/* Gratias Deo Chambers */}

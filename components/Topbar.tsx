@@ -8,7 +8,7 @@ const Topbar = () => {
       {/* Left Side - Social Media Icons */}
       <div className="flex gap-4">
         <a
-          href="https://facebook.com"
+          href="https://https://web.facebook.com/people/Tokunbo-Otoyo-Co/100064847209728/.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-500"

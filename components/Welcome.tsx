@@ -71,7 +71,7 @@ export default function Welcome() {
           Get Your Consultation
         </p>
         <p className="text-2xl font-bold backdrop-blur-2xl bg-orange-600 border rounded-4xl p-3 text-white">
-        +234 803 667 4036
+        +234 803 689 6057
         </p>
         <p className="text-sm text-gray-500"></p>
       </motion.div>

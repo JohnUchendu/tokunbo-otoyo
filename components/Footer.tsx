@@ -16,9 +16,9 @@ const Footer = () => {
             <p className="text-lg">
               <strong>Telephone:</strong> +234 803 667 4036
             </p>
-            {/* <p className="text-lg">
-              <strong>Email:</strong> info@kkubaniandco.com
-            </p> */}
+            <p className="text-lg">
+              <strong>Email:</strong> tokunbootoyoandco@yahoo.com
+            </p>
           </div>
 
           {/* Card 2: Office Hours */}

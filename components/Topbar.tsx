@@ -35,14 +35,14 @@ const Topbar = () => {
           <span>
             <span className="border rounded-2xl px-1 bg-orange-500 hover:bg-yellow-200 capitalize font-bold text-gray-900">
               {" "}
-              call now
+              call 
             </span>{" "}
             +234 803 689 6057
           </span>
         </div>
         <div className="flex items-center gap-2">
           <Mail size={18} />
-          {/* <span>info@kkubaniandco.com</span> */}
+          <span>tokunbootoyoandco@yahoo.com</span>
         </div>
       </div>
     </div>
